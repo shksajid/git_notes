@@ -1,3 +1,5 @@
 - GIt create branch.
 
-git branch
+git branch deletion
+
+git see remote branches
