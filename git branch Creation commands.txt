@@ -1,5 +1,9 @@
 - GIt create branch.
 
+<<<<<<< HEAD
 git branch deletion
 
 git see remote branches
+=======
+git branch creation
+>>>>>>> d6a3f1df469564559b719432901bec3ce30b6e12
