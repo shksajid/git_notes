@@ -1,0 +1,41 @@
+1. To create Local git repository :
+Command : git init 
+
+2. Tell the repository who you are : Basic configuration of mail and user name to identify 
+
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
+ 
+3. Create a Readme file / some file/files in the git folder 
+
+4. add the untracked files to the repository by following command
+
+git add <filename>
+
+5. Then commit the file with the message : 
+
+git commit -m "Message ....."
+
+6. Till now nothing has been sent to the git server . Now we are going to add remote server details as below 
+
+(Make sure you have the remote server ready with git repository to push your local changes foolow www.github.com and create new Repository) and copy the .git url 
+and execute command below in command prompt
+
+ git remote add mylearnings https://github.com/shksajid/mylearnings.git
+ 
+ 7. SInce the Files are already added and Commit was successfull, we can go ahead and push the files to above remote server .
+ 
+ git push --set-upstream mylearnings master
+ 
+ Then it may ask the credentials of the remote server , Please provide them and see the success message as below .
+ 
+ 
+ Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 323 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/shksajid/mylearnings.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from mylearnings.
+ 
